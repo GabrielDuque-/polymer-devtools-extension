@@ -1,5 +1,5 @@
 /bower_components
 /node_modules
 /build
-deb_build.py
-.DS_Store
+/deb_build.py
+/.DS_Store
