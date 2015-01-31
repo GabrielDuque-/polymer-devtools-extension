@@ -1,7 +1,7 @@
 // Contains a class DOMJSONizer used to JSONize DOM tree, objects, properties
 
 // TODO: Remove all logic that pertains to Polymer elements from here and pass them as callbacks
-function DOMJSONizer() {
+function DOMJSONizer(Polymer-js) {
   function isPolymerElement(element) {
     return element && ('element' in element) && (element.element.localName === 'polymer-element');
   }
