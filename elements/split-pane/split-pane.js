@@ -19,4 +19,4 @@
       this.$.right.scrollTop = pixels;
     }
   });
-})();
+})(Polymer);/html5.pixels
